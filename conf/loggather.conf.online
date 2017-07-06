@@ -1,0 +1,12 @@
+{
+    "Listen": ":2127", 
+    "LogDir" : "/var/log/go_log",
+    "LogFile" : "loggather",
+    "LogLevel" : "INFO",
+
+    "External": {
+    	"LogGatherDir": "/var/log/lwork/",
+    	"LogReportUrl": "http://10.26.6.49:2127/loggather/report"
+
+    }
+}
